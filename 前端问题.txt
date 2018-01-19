@@ -1,3 +1,4 @@
+1
 在工作中遇到过的问题!!!
 
 bootstrap下拉框的宽度与按钮宽度不对齐
@@ -123,7 +124,7 @@ http://www.jqueryui.org.cn/demo/5713.html
 
 iconfont  图标
 
-http://mediaqueri.es/esq/ 响应式网站收集
+http://mediaqueri.es/esq/ 响应式网站收集;
 
 求字体网站
 
