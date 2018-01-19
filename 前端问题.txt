@@ -1,0 +1,336 @@
+在工作中遇到过的问题!!!
+
+bootstrap下拉框的宽度与按钮宽度不对齐
+解决方案：
+给ul加一个min-with：inherit
+***********************************************************************************
+
+网页在手机端缩小时，只能显示左边一部分
+解决方案：
+给body加一个min-with:1200px;
+***********************************************************************************
+
+表格文本换行问题，表格设置固定宽度，或者设置table-layout:fixed;
+文本设置为overflow:hidden;text-overflow:ellipsis;
+***********************************************************************************
+
+
+
+文本设置为overflow:hidden;text-overflow:ellipsis;white-space:norawp
+属性需要设置给当前元素，不能给父级加
+***********************************************************************************
+
+修改placehloder样式
+ 父级 ::-webkit-input-placeholder{ 
+color: #e5e5e5; 
+} 
+nput_box ::-moz-placeholder{ 
+color: #e5e5e5; 
+} 
+.input_box :-ms-input-placeholder{ 
+color: #e5e5e5; 
+}/*ie浏览器*/ 
+***********************************************************************************
+
+修改滚动条样式
+       ::-webkit-scrollbar
+      	{
+		width: 1px;
+	}
+	/* 垂直滚动条的滑动块 */
+	::-webkit-scrollbar-thumb:vertical {
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+	background-color:rgba(228,228,228,00);
+	}
+
+***********************************************************************************
+
+禁止拖放
+   <textarea style="resize:none"></textarea>
+***********************************************************************************
+
+支持360兼容模式与极速模式
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+***********************************************************************************
+
+
+关注前端网:老姚的小屋
+
+
+CSS代码：
+.data_custom { display:inline-block; position: relative; }
+.data_custom:hover { color: transparent; }
+.data_custom:hover:after {
+    content: attr(data-hover-response);
+    color: black;
+    position: absolute;
+    left: 0;
+}
+HTML代码：
+<a class="data_custom" data-hover-response="我说过不要碰我！" href="#">不要碰我，雅蠛蝶~~</a>
+***********************************************************************************
+
+calc()方法
+    viewport：可视窗口，也就是浏览器。
+    vw Viewport宽度， 1vw 等于viewport宽度的1%
+    vh Viewport高度， 1vh 等于viewport高的的1%
+div{
+       height: calc(100vh - 100px);     
+    } 
+应用在垂直居中：pandding-top:calc((100vh - 需要居中内容的高度)/2);
+
+
+利用checked:状态伪类实现点击效果
+<input id="id">属性设置为隐藏
+<label for=“id”></label>
+input:checked{点击后改变的属性样式}
+
+
+wodi软件
+
+工作帮助网址：
+http://so.uigreat.com/ui设计师导航
+
+http://huke88.com/虎课网
+
+http://download.csdn.net/C下载
+
+https://segmentfault.com/技术论坛
+
+http://www.imooc.com/慕课网
+
+https://isux.tencent.com/recruit  ISUX网
+
+脚本之家
+
+菜鸟教程  w3c
+
+bootstrap中文官网
+
+http://www.qdfuns.com/  前端网
+
+http://www.htmlsucai.com/forum-76-1.html  网页特效
+
+http://www.sj33.cn/digital/wysj/  网页设计
+
+北风网
+
+http://www.jqueryui.org.cn/demo/5713.html 
+
+百度echart
+
+iconfont  图标
+
+http://mediaqueri.es/esq/ 响应式网站收集
+
+求字体网站
+
+http://sc.chinaz.com/mobandemo.aspx?downloadid=201721520186
+http://pressels.com/
+http://www.coolsite360.com/sites/sp3t0k/fuwu.html
+http://www.coolsite360.com/sites/i4eakx/preview/
+http://www.bienvillecapital.com/themes
+http://blog.csdn.net/wowkk/article/details/12572447
+易源-接口
+http://www.layui.com/
+http://www.17sucai.com/
+http://jsonplaceholder.typicode.com/users
+json转算
+http://www.bejson.com
+Stack Overflow
+todomvc.com
+asciiflow.com
+http://jsonplaceholder.typicode.com/users
+iconfinder.com
+  icon-exclamation-sign
+  icon-ok-circle
+  icon-remove-circle
+主色调：#2269D5
+
+***********************************************************************************
+居中问题
+
+情形一：div限高，内容长度限一行
+
+
+代码如下:
+<style>
+.v-align {
+margin: 0 auto;
+width: 200px;
+height: 80px;
+text-align: center;
+line-height: 80px;
+border: 1px solid #ddd;
+}
+</style>
+<!-- html -->
+<div class="v-align">我的内容只能有一行。</div>
+
+valign_1
+
+情形二：div限高，内容不限
+
+
+代码如下:
+.v-mult {
+margin: 0 auto;
+width: 200px;
+height: 100px;
+border: 1px solid #ddd;
+overflow: hidden;
+}
+.v-mult .empty,
+.v-mult .text {
+display: inline-block;
+*display: inline;
+*zoom: 1;
+vertical-align: middle;
+}
+.v-mult .empty {
+height: 100%;
+}
+<!-- html -->
+<div class="v-mult">
+<span class="empty"></span>
+<span class="text">我的内容不限，多高都行
+换行照常</span>
+</div>
+
+valign_2
+
+情形三：div高度不定，内容高度一定
+
+
+代码如下:
+.v-auto {
+position: relative;
+margin: 0 auto;
+width: 200px;
+border: 1px solid #ddd;
+}
+.v-auto .text {
+position: absolute;
+top: 50%;
+margin-top: -50px;
+height: 100px;
+border: 1px dashed #ddd;
+}
+<!-- html -->
+<div class="v-auto">
+<div class="text">
+我的高度是固定的，只有100px高，但是我的父及高度不定，我怎么垂直居中呢？
+</div>
+
+
+
+
+
+</div>
+
+valign_3
+
+情形四：div高度不定，内容高度不定
+
+
+代码如下:
+.v-auto-out {
+position: relative;
+margin: 0 auto;
+width: 200px;
+border: 1px solid #ddd;
+}
+.v-auto-out .auto-in {
+position: absolute;
+top: 50%;
+border: 1px dashed #ddd;
+/* 这里有兼容性问题 */
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+<!-- html -->
+<div class="v-auto-out">
+<div class="auto-in">我的高度不定，我的父及高度也不定，这下要上下居中，该如何是好？我们一起来瞧瞧吧。</div>
+
+
+
+
+
+</div>
+
+valign_4
+
+好了，知道这四种方式，我相信足以应对日常工作中的各种垂直居中问题。代码很简单，不再做多余阐述。总之一句话，CSS的各个属性样式，就好像人肢体的各个器官，了解了各个器官的功能，才能相互配合完成各种任务。相反，个体的能力是有限的。
+
+
+  .box{position:relative;width:100px;height:100px;border:1px solid #ddd;}
+  .inner{position:absolute;margin:auto;left:0;right:0;top:0;bottom:0;width:30px;height:30px;text-align:center;line-height:30px}
+
+   <div class='box'>
+     <p class='inner'>1</p>
+   </div>
+***************************************************************************************************
+.container {   }
+	.left { width: 200px;  float: left; }
+ 	.right { margin-left: 200px; }
+
+
+
+<div class="example">
+ <style>
+p{ margin:0; padding:0;}
+.example{ position:relative; height:100px ; width:300x; padding-left:100px;}
+.example .left{ background:#0C6; position:absolute; left:0; width:100px; height:100%}
+.example .right{ background:#9F3; width:100%; height:100%}
+</style>
+  <p class="left">ee</p>
+  <p class="right">ee</p>
+</div>
+
+<br>
+<div class='example-3 auto-width'>
+  <style>
+    .example-3 { display: table; height: 100px; width: 100%; }
+    .example-3 .left { width: 100px; height: 100%; background: #0f0; display: table-cell; }
+    .example-3 .right { background: #f00 height: 100%; display: table-cell;以表格单元格的形式呈现，类似于td标签 }
+  </style>
+  <div class='left'>left</div>
+  <div class='right'>right</div>
+</div>
+
+
+
+<br>
+<div class='example-5 auto-width'>
+  <style>
+    .example-5 { height: 100px; width: 100%; }
+    .example-5:after { clear: both; }
+    .example-5 .left { width: 100px; height: 100%;  background: #0f0; float: left; }
+    .example-5 .right { background: #f00; height: 100%; width: calc(100% - 100px); float: right; }
+  </style>
+  <div class='left'>left</div>
+  <div class='right'>right</div>
+</div>
+-------------------------------
+如何解决按钮点击加速的问题
+
+<button id='btn' onclick="oncl()">11</button>
+<script>
+   var isshow = true;
+   btn.onclick= function(){
+		var i = 0.1
+		if(!isshow){
+		 return ;
+		}
+		setInterval(()=>{
+			 i+=0.1;
+			 i>1&&(i=0.1)
+			btn.style.opacity = i 
+		},100)
+		isshow=false   
+	 }
+</script>
