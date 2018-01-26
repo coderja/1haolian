@@ -1,27 +1,27 @@
-ÔÚ¹¤×÷ÖĞÓöµ½¹ıµÄÎÊÌâ!!!
+åœ¨å·¥ä½œä¸­é‡åˆ°è¿‡çš„é—®é¢˜!!!
 
-bootstrapÏÂÀ­¿òµÄ¿í¶ÈÓë°´Å¥¿í¶È²»¶ÔÆë
-½â¾ö·½°¸£º
-¸øul¼ÓÒ»¸ömin-with£ºinherit
+bootstrapä¸‹æ‹‰æ¡†çš„å®½åº¦ä¸æŒ‰é’®å®½åº¦ä¸å¯¹é½
+è§£å†³æ–¹æ¡ˆï¼š
+ç»™ulåŠ ä¸€ä¸ªmin-withï¼šinherit
 ***********************************************************************************
 
-ÍøÒ³ÔÚÊÖ»ú¶ËËõĞ¡Ê±£¬Ö»ÄÜÏÔÊ¾×ó±ßÒ»²¿·Ö
-½â¾ö·½°¸£º
-¸øbody¼ÓÒ»¸ömin-with:1200px;
+ç½‘é¡µåœ¨æ‰‹æœºç«¯ç¼©å°æ—¶ï¼Œåªèƒ½æ˜¾ç¤ºå·¦è¾¹ä¸€éƒ¨åˆ†
+è§£å†³æ–¹æ¡ˆï¼š
+ç»™bodyåŠ ä¸€ä¸ªmin-with:1200px;
 ***********************************************************************************
 
-±í¸ñÎÄ±¾»»ĞĞÎÊÌâ£¬±í¸ñÉèÖÃ¹Ì¶¨¿í¶È£¬»òÕßÉèÖÃtable-layout:fixed;
-ÎÄ±¾ÉèÖÃÎªoverflow:hidden;text-overflow:ellipsis;
+è¡¨æ ¼æ–‡æœ¬æ¢è¡Œé—®é¢˜ï¼Œè¡¨æ ¼è®¾ç½®å›ºå®šå®½åº¦ï¼Œæˆ–è€…è®¾ç½®table-layout:fixed;
+æ–‡æœ¬è®¾ç½®ä¸ºoverflow:hidden;text-overflow:ellipsis;
 ***********************************************************************************
 
 
 
-ÎÄ±¾ÉèÖÃÎªoverflow:hidden;text-overflow:ellipsis;white-space:norawp
-ÊôĞÔĞèÒªÉèÖÃ¸øµ±Ç°ÔªËØ£¬²»ÄÜ¸ø¸¸¼¶¼Ó
+æ–‡æœ¬è®¾ç½®ä¸ºoverflow:hidden;text-overflow:ellipsis;white-space:norawp
+å±æ€§éœ€è¦è®¾ç½®ç»™å½“å‰å…ƒç´ ï¼Œä¸èƒ½ç»™çˆ¶çº§åŠ 
 ***********************************************************************************
 
-ĞŞ¸ÄplacehloderÑùÊ½
- ¸¸¼¶ ::-webkit-input-placeholder{ 
+ä¿®æ”¹placehloderæ ·å¼
+ çˆ¶çº§ ::-webkit-input-placeholder{ 
 color: #e5e5e5; 
 } 
 nput_box ::-moz-placeholder{ 
@@ -29,15 +29,15 @@ color: #e5e5e5;
 } 
 .input_box :-ms-input-placeholder{ 
 color: #e5e5e5; 
-}/*ieä¯ÀÀÆ÷*/ 
+}/*ieæµè§ˆå™¨*/ 
 ***********************************************************************************
 
-ĞŞ¸Ä¹ö¶¯ÌõÑùÊ½
+ä¿®æ”¹æ»šåŠ¨æ¡æ ·å¼
        ::-webkit-scrollbar
       	{
 		width: 1px;
 	}
-	/* ´¹Ö±¹ö¶¯ÌõµÄ»¬¶¯¿é */
+	/* å‚ç›´æ»šåŠ¨æ¡çš„æ»‘åŠ¨å— */
 	::-webkit-scrollbar-thumb:vertical {
 	border-radius: 0px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
@@ -46,20 +46,20 @@ color: #e5e5e5;
 
 ***********************************************************************************
 
-½ûÖ¹ÍÏ·Å
+ç¦æ­¢æ‹–æ”¾
    <textarea style="resize:none"></textarea>
 ***********************************************************************************
 
-Ö§³Ö360¼æÈİÄ£Ê½Óë¼«ËÙÄ£Ê½
+æ”¯æŒ360å…¼å®¹æ¨¡å¼ä¸æé€Ÿæ¨¡å¼
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 ***********************************************************************************
 
 
-¹Ø×¢Ç°¶ËÍø:ÀÏÒ¦µÄĞ¡Îİ
+å…³æ³¨å‰ç«¯ç½‘:è€å§šçš„å°å±‹
 
 
-CSS´úÂë£º
+CSSä»£ç ï¼š
 .data_custom { display:inline-block; position: relative; }
 .data_custom:hover { color: transparent; }
 .data_custom:hover:after {
@@ -68,65 +68,67 @@ CSS´úÂë£º
     position: absolute;
     left: 0;
 }
-HTML´úÂë£º
-<a class="data_custom" data-hover-response="ÎÒËµ¹ı²»ÒªÅöÎÒ£¡" href="#">²»ÒªÅöÎÒ£¬ÑÅóºµû~~</a>
+HTMLä»£ç ï¼š
+<a class="data_custom" data-hover-response="æˆ‘è¯´è¿‡ä¸è¦ç¢°æˆ‘ï¼" href="#">ä¸è¦ç¢°æˆ‘ï¼Œé›…è ›è¶~~</a>
 ***********************************************************************************
 
-calc()·½·¨
-    viewport£º¿ÉÊÓ´°¿Ú£¬Ò²¾ÍÊÇä¯ÀÀÆ÷¡£
-    vw Viewport¿í¶È£¬ 1vw µÈÓÚviewport¿í¶ÈµÄ1%
-    vh Viewport¸ß¶È£¬ 1vh µÈÓÚviewport¸ßµÄµÄ1%
+calc()æ–¹æ³•
+    viewportï¼šå¯è§†çª—å£ï¼Œä¹Ÿå°±æ˜¯æµè§ˆå™¨ã€‚
+    vw Viewportå®½åº¦ï¼Œ 1vw ç­‰äºviewportå®½åº¦çš„1%
+    vh Viewporté«˜åº¦ï¼Œ 1vh ç­‰äºviewporté«˜çš„çš„1%
 div{
        height: calc(100vh - 100px);     
     } 
-Ó¦ÓÃÔÚ´¹Ö±¾ÓÖĞ£ºpandding-top:calc((100vh - ĞèÒª¾ÓÖĞÄÚÈİµÄ¸ß¶È)/2);
+åº”ç”¨åœ¨å‚ç›´å±…ä¸­ï¼špandding-top:calc((100vh - éœ€è¦å±…ä¸­å†…å®¹çš„é«˜åº¦)/2);
 
 
-ÀûÓÃchecked:×´Ì¬Î±ÀàÊµÏÖµã»÷Ğ§¹û
-<input id="id">ÊôĞÔÉèÖÃÎªÒş²Ø
-<label for=¡°id¡±></label>
-input:checked{µã»÷ºó¸Ä±äµÄÊôĞÔÑùÊ½}
+åˆ©ç”¨checked:çŠ¶æ€ä¼ªç±»å®ç°ç‚¹å‡»æ•ˆæœ
+<input id="id">å±æ€§è®¾ç½®ä¸ºéšè—
+<label for=â€œidâ€></label>
+input:checked{ç‚¹å‡»åæ”¹å˜çš„å±æ€§æ ·å¼}
 
 
-wodiÈí¼ş
+wodiè½¯ä»¶
 
-¹¤×÷°ïÖúÍøÖ·£º
-http://so.uigreat.com/uiÉè¼ÆÊ¦µ¼º½
+å·¥ä½œå¸®åŠ©ç½‘å€ï¼š
+http://so.uigreat.com/uiè®¾è®¡å¸ˆå¯¼èˆª
 
-http://huke88.com/»¢¿ÎÍø
+http://huke88.com/è™è¯¾ç½‘
 
-http://download.csdn.net/CÏÂÔØ
+http://download.csdn.net/Cä¸‹è½½
 
-https://segmentfault.com/¼¼ÊõÂÛÌ³
+https://segmentfault.com/æŠ€æœ¯è®ºå›
 
-http://www.imooc.com/Ä½¿ÎÍø
+http://www.imooc.com/æ…•è¯¾ç½‘
 
-https://isux.tencent.com/recruit  ISUXÍø
+https://isux.tencent.com/recruit  ISUXç½‘
 
-½Å±¾Ö®¼Ò
+è„šæœ¬ä¹‹å®¶
 
-²ËÄñ½Ì³Ì  w3c
+èœé¸Ÿæ•™ç¨‹  w3c
 
-bootstrapÖĞÎÄ¹ÙÍø
+bootstrapä¸­æ–‡å®˜ç½‘
 
-http://www.qdfuns.com/  Ç°¶ËÍø
+http://www.qdfuns.com/  å‰ç«¯ç½‘
 
-http://www.htmlsucai.com/forum-76-1.html  ÍøÒ³ÌØĞ§
+http://www.htmlsucai.com/forum-76-1.html  ç½‘é¡µç‰¹æ•ˆ
 
-http://www.sj33.cn/digital/wysj/  ÍøÒ³Éè¼Æ
+http://www.sj33.cn/digital/wysj/  ç½‘é¡µè®¾è®¡
 
-±±·çÍø
+åŒ—é£ç½‘
 
 http://www.jqueryui.org.cn/demo/5713.html 
 
-°Ù¶Èechart
+index of / .mp3 //éŸ³ä¹ç½‘å€
 
-iconfont  Í¼±ê
+ç™¾åº¦echart
+
+iconfont  å›¾æ ‡
 iocnfinder.com
 
-http://mediaqueri.es/esq/ ÏìÓ¦Ê½ÍøÕ¾ÊÕ¼¯
+http://mediaqueri.es/esq/ å“åº”å¼ç½‘ç«™æ”¶é›†
 
-Çó×ÖÌåÍøÕ¾
+æ±‚å­—ä½“ç½‘ç«™
 
 http://sc.chinaz.com/mobandemo.aspx?downloadid=201721520186
 http://pressels.com/
@@ -134,11 +136,11 @@ http://www.coolsite360.com/sites/sp3t0k/fuwu.html
 http://www.coolsite360.com/sites/i4eakx/preview/
 http://www.bienvillecapital.com/themes
 http://blog.csdn.net/wowkk/article/details/12572447
-Ò×Ô´-½Ó¿Ú
+æ˜“æº-æ¥å£
 http://www.layui.com/
 http://www.17sucai.com/
 http://jsonplaceholder.typicode.com/users
-json×ªËã
+jsonè½¬ç®—
 http://www.bejson.com
 Stack Overflow
 todomvc.com
@@ -149,15 +151,15 @@ iconfinder.com
   icon-exclamation-sign
   icon-ok-circle
   icon-remove-circle
-Ö÷É«µ÷£º#2269D5
+ä¸»è‰²è°ƒï¼š#2269D5
 
 ***********************************************************************************
-¾ÓÖĞÎÊÌâ
+å±…ä¸­é—®é¢˜
 
-ÇéĞÎÒ»£ºdivÏŞ¸ß£¬ÄÚÈİ³¤¶ÈÏŞÒ»ĞĞ
+æƒ…å½¢ä¸€ï¼šdivé™é«˜ï¼Œå†…å®¹é•¿åº¦é™ä¸€è¡Œ
 
 
-´úÂëÈçÏÂ:
+ä»£ç å¦‚ä¸‹:
 <style>
 .v-align {
 margin: 0 auto;
@@ -169,14 +171,14 @@ border: 1px solid #ddd;
 }
 </style>
 <!-- html -->
-<div class="v-align">ÎÒµÄÄÚÈİÖ»ÄÜÓĞÒ»ĞĞ¡£</div>
+<div class="v-align">æˆ‘çš„å†…å®¹åªèƒ½æœ‰ä¸€è¡Œã€‚</div>
 
 valign_1
 
-ÇéĞÎ¶ş£ºdivÏŞ¸ß£¬ÄÚÈİ²»ÏŞ
+æƒ…å½¢äºŒï¼šdivé™é«˜ï¼Œå†…å®¹ä¸é™
 
 
-´úÂëÈçÏÂ:
+ä»£ç å¦‚ä¸‹:
 .v-mult {
 margin: 0 auto;
 width: 200px;
@@ -197,16 +199,16 @@ height: 100%;
 <!-- html -->
 <div class="v-mult">
 <span class="empty"></span>
-<span class="text">ÎÒµÄÄÚÈİ²»ÏŞ£¬¶à¸ß¶¼ĞĞ
-»»ĞĞÕÕ³£</span>
+<span class="text">æˆ‘çš„å†…å®¹ä¸é™ï¼Œå¤šé«˜éƒ½è¡Œ
+æ¢è¡Œç…§å¸¸</span>
 </div>
 
 valign_2
 
-ÇéĞÎÈı£ºdiv¸ß¶È²»¶¨£¬ÄÚÈİ¸ß¶ÈÒ»¶¨
+æƒ…å½¢ä¸‰ï¼šdivé«˜åº¦ä¸å®šï¼Œå†…å®¹é«˜åº¦ä¸€å®š
 
 
-´úÂëÈçÏÂ:
+ä»£ç å¦‚ä¸‹:
 .v-auto {
 position: relative;
 margin: 0 auto;
@@ -223,7 +225,7 @@ border: 1px dashed #ddd;
 <!-- html -->
 <div class="v-auto">
 <div class="text">
-ÎÒµÄ¸ß¶ÈÊÇ¹Ì¶¨µÄ£¬Ö»ÓĞ100px¸ß£¬µ«ÊÇÎÒµÄ¸¸¼°¸ß¶È²»¶¨£¬ÎÒÔõÃ´´¹Ö±¾ÓÖĞÄØ£¿
+æˆ‘çš„é«˜åº¦æ˜¯å›ºå®šçš„ï¼Œåªæœ‰100pxé«˜ï¼Œä½†æ˜¯æˆ‘çš„çˆ¶åŠé«˜åº¦ä¸å®šï¼Œæˆ‘æ€ä¹ˆå‚ç›´å±…ä¸­å‘¢ï¼Ÿ
 </div>
 
 
@@ -234,10 +236,10 @@ border: 1px dashed #ddd;
 
 valign_3
 
-ÇéĞÎËÄ£ºdiv¸ß¶È²»¶¨£¬ÄÚÈİ¸ß¶È²»¶¨
+æƒ…å½¢å››ï¼šdivé«˜åº¦ä¸å®šï¼Œå†…å®¹é«˜åº¦ä¸å®š
 
 
-´úÂëÈçÏÂ:
+ä»£ç å¦‚ä¸‹:
 .v-auto-out {
 position: relative;
 margin: 0 auto;
@@ -248,7 +250,7 @@ border: 1px solid #ddd;
 position: absolute;
 top: 50%;
 border: 1px dashed #ddd;
-/* ÕâÀïÓĞ¼æÈİĞÔÎÊÌâ */
+/* è¿™é‡Œæœ‰å…¼å®¹æ€§é—®é¢˜ */
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 -o-transform: translateY(-50%);
@@ -256,7 +258,7 @@ transform: translateY(-50%);
 }
 <!-- html -->
 <div class="v-auto-out">
-<div class="auto-in">ÎÒµÄ¸ß¶È²»¶¨£¬ÎÒµÄ¸¸¼°¸ß¶ÈÒ²²»¶¨£¬ÕâÏÂÒªÉÏÏÂ¾ÓÖĞ£¬¸ÃÈçºÎÊÇºÃ£¿ÎÒÃÇÒ»ÆğÀ´ÇÆÇÆ°É¡£</div>
+<div class="auto-in">æˆ‘çš„é«˜åº¦ä¸å®šï¼Œæˆ‘çš„çˆ¶åŠé«˜åº¦ä¹Ÿä¸å®šï¼Œè¿™ä¸‹è¦ä¸Šä¸‹å±…ä¸­ï¼Œè¯¥å¦‚ä½•æ˜¯å¥½ï¼Ÿæˆ‘ä»¬ä¸€èµ·æ¥ç§ç§å§ã€‚</div>
 
 
 
@@ -266,7 +268,7 @@ transform: translateY(-50%);
 
 valign_4
 
-ºÃÁË£¬ÖªµÀÕâËÄÖÖ·½Ê½£¬ÎÒÏàĞÅ×ãÒÔÓ¦¶ÔÈÕ³£¹¤×÷ÖĞµÄ¸÷ÖÖ´¹Ö±¾ÓÖĞÎÊÌâ¡£´úÂëºÜ¼òµ¥£¬²»ÔÙ×ö¶àÓà²ûÊö¡£×ÜÖ®Ò»¾ä»°£¬CSSµÄ¸÷¸öÊôĞÔÑùÊ½£¬¾ÍºÃÏñÈËÖ«ÌåµÄ¸÷¸öÆ÷¹Ù£¬ÁË½âÁË¸÷¸öÆ÷¹ÙµÄ¹¦ÄÜ£¬²ÅÄÜÏà»¥ÅäºÏÍê³É¸÷ÖÖÈÎÎñ¡£Ïà·´£¬¸öÌåµÄÄÜÁ¦ÊÇÓĞÏŞµÄ¡£
+å¥½äº†ï¼ŒçŸ¥é“è¿™å››ç§æ–¹å¼ï¼Œæˆ‘ç›¸ä¿¡è¶³ä»¥åº”å¯¹æ—¥å¸¸å·¥ä½œä¸­çš„å„ç§å‚ç›´å±…ä¸­é—®é¢˜ã€‚ä»£ç å¾ˆç®€å•ï¼Œä¸å†åšå¤šä½™é˜è¿°ã€‚æ€»ä¹‹ä¸€å¥è¯ï¼ŒCSSçš„å„ä¸ªå±æ€§æ ·å¼ï¼Œå°±å¥½åƒäººè‚¢ä½“çš„å„ä¸ªå™¨å®˜ï¼Œäº†è§£äº†å„ä¸ªå™¨å®˜çš„åŠŸèƒ½ï¼Œæ‰èƒ½ç›¸äº’é…åˆå®Œæˆå„ç§ä»»åŠ¡ã€‚ç›¸åï¼Œä¸ªä½“çš„èƒ½åŠ›æ˜¯æœ‰é™çš„ã€‚
 
 
   .box{position:relative;width:100px;height:100px;border:1px solid #ddd;}
@@ -298,7 +300,7 @@ p{ margin:0; padding:0;}
   <style>
     .example-3 { display: table; height: 100px; width: 100%; }
     .example-3 .left { width: 100px; height: 100%; background: #0f0; display: table-cell; }
-    .example-3 .right { background: #f00 height: 100%; display: table-cell;ÒÔ±í¸ñµ¥Ôª¸ñµÄĞÎÊ½³ÊÏÖ£¬ÀàËÆÓÚtd±êÇ© }
+    .example-3 .right { background: #f00 height: 100%; display: table-cell;ä»¥è¡¨æ ¼å•å…ƒæ ¼çš„å½¢å¼å‘ˆç°ï¼Œç±»ä¼¼äºtdæ ‡ç­¾ }
   </style>
   <div class='left'>left</div>
   <div class='right'>right</div>
@@ -318,7 +320,7 @@ p{ margin:0; padding:0;}
   <div class='right'>right</div>
 </div>
 -------------------------------
-ÈçºÎ½â¾ö°´Å¥µã»÷¼ÓËÙµÄÎÊÌâ
+å¦‚ä½•è§£å†³æŒ‰é’®ç‚¹å‡»åŠ é€Ÿçš„é—®é¢˜
 
 <button id='btn' onclick="oncl()">11</button>
 <script>
